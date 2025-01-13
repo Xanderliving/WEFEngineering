@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.job-table th, .job-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.job-table th {
+  background-color: #f8f8f8;
+}
+
+.modal {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+}
